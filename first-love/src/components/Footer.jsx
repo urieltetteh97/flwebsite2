@@ -61,13 +61,71 @@ const Footer = () => {
                          <li><a href="#giving" className='text-gray-400 font-normal hover:text-white animated-underline'>Giving</a></li>
                     </ul>
                 </div>
-                <div className='lg:col-span-3 space-y-5 animate-on-scroll [transition-delay:200ms] opacity-100 translate-y-0'>
-
+                <div className='lg:col-span-3 space-y-5 animate-on-scroll [transition-delay:300ms] opacity-100 translate-y-0'>
+                    <h3 className="text-lg text-pink-400 font-semibold">Service Times</h3>
+                    <ul className="space-y-3">
+                        <li className="text-gray-400 font-bold">Sunday Services</li>
+                        <li className="text-gray-400 font-normal">8:30am - Holy Ghost Encounter</li>
+                        <li className="text-gray-400 font-normal">12:00pm - First Love Experience</li>
+                    </ul>
                 </div>
-            </div>
+                <div className='lg:col-span-3 space-y-5 animate-on-scroll [transition-delay:300ms] opacity-100 translate-y-0'>
+                    <h3 className="text-lg text-pink-500 font-semibold">Connect With Us</h3>
+                    <ul className="space-y-3">
+                        <li className="text-gray-400 font-normal">Catch the latest sermon from the First Love Center</li>
+                        <li>
+                            <button className="group relative w-full px-5 py-2 text-start bg-white/10 backdrop-blur-md rounded-sm cursor-pointer 
+                                border border-white/20 hover:bg-white/20 
+                                transition-all duration-300 ease-in-out 
+                                transform hover:scale-105">
+                                <div className="flex items-center justify-between">
+                                    <span className="relative z-10 text-white text-sm">IOS App</span>
+                                    <svg 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        className="h-4 w-4 text-white transform transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" 
+                                        fill="none" 
+                                        viewBox="0 0 24 24" 
+                                        stroke="currentColor"
+                                    >
+                                        <path 
+                                            strokeLinecap="round" 
+                                            strokeLinejoin="round" 
+                                            strokeWidth={2} 
+                                            d="M7 17L17 7M17 7H7M17 7V17"
+                                        />
+                                    </svg>
+                                </div>
+                            </button>
+                        </li>
+                        <li>
+                            <button className="group relative w-full px-5 py-2 text-start bg-white/10 backdrop-blur-md rounded-sm cursor-pointer 
+                                border border-white/20 hover:bg-white/20 
+                                transition-all duration-300 ease-in-out 
+                                transform hover:scale-105">
+                                <div className="flex items-center justify-between">
+                                    <span className="relative z-10 text-white text-sm">Android App</span>
+                                    <svg 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        className="h-4 w-4 text-white transform transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" 
+                                        fill="none" 
+                                        viewBox="0 0 24 24" 
+                                        stroke="currentColor"
+                                    >
+                                        <path 
+                                            strokeLinecap="round" 
+                                            strokeLinejoin="round" 
+                                            strokeWidth={2} 
+                                            d="M7 17L17 7M17 7H7M17 7V17"
+                                        />
+                                    </svg>
+                                </div>
+                            </button>
+                        </li>
+                        
+                    </ul>
+                </div>
         </div>
-        
-
+        </div>
     </footer>
   )
 }
